@@ -253,48 +253,6 @@ a{
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
-.hr-page {
-    display: block;
-    height: 8px;
-    background-color: #000;
-    content: '';
-    width: 100px;
-    transition: width 0.3s ease;
-    margin: 20px auto;
-    border-radius: 16px;
-    position: relative;
-}
-
-.hr-page::before,
-.hr-page::after {
-    content: '';
-    position: absolute;
-    height: 4px;
-    background-color: #40513B;
-    transition: width 0.3s ease;
-}
-
-.hr-page::before {
-    left: -100px;
-    background-color: #40513B;
-    width: 100px;
-}
-
-.hr-page::after {
-    right: -100px;
-    background-color: #40513B;
-    width: 100px;
-}
-
-.hr-page:hover {
-    width: 500px;
-    background-color: #40513B;
-}
-
-.hr-page:hover::before,
-.hr-page:hover::after {
-    width: 250px;
-}
 
 @media only screen and (max-width: 1023px) {
     .profile-picture {
