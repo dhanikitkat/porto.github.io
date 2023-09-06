@@ -11,9 +11,6 @@ a{
 
 .page {
     background-color: #fff;
-    padding: 20px 20px;
-    border-radius: 25px;
-    margin-top: 1rem;
 }
 
 .firstname {
@@ -30,6 +27,10 @@ a{
     font-weight: 900;
     font-size: 40px;
     color: #40513B;
+}
+
+.offcanvas{
+    width: 300px;
 }
 
 .offcanvas-body {
@@ -92,6 +93,7 @@ a{
     box-shadow: 3px 5px #40513B;
     margin-bottom: 10px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .cta-button:hover {
@@ -152,6 +154,14 @@ a{
 
 .airplane:hover {
     transform: translateX(50px) translateY(-50px) rotate(20deg);
+}
+
+.hr-page{
+    border: #40513B solid 3px;
+    width: 50px;
+    background-color: #40513B;
+    color: #40513B;
+    display: inline-block;
 }
 
 .card-title{
@@ -282,6 +292,15 @@ a{
     .w-50 {
         width: 80% !important;
     }
+
+    .offcanvas{
+        width: 100%;
+    }
+
+    .offcanvas-start{
+        transform: translateX(-100%);
+    }
+    
 }
 
 @media only screen and (max-width: 424px) {
